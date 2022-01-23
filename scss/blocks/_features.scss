@@ -1,0 +1,62 @@
+.features{
+  background-image: url(../images/runners.png);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-bottom: 2px solid #DDDDDD;
+}
+
+.features__elements{
+  padding: 240px 0px ;
+}
+
+.features__box{
+  width: 490px;
+  margin-left: auto;
+
+}
+
+
+.features__heading{
+  width: 490px;
+}
+
+.features__title{
+  margin: 0;
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 60px;
+  color: #FFFFFF;
+}
+
+.features__summary{
+  width: 490px;
+  padding-left: 40px;
+  border-left: 3px solid #FFFFFF;
+}
+
+.features__text{
+  margin: 0;
+  margin-bottom: 30px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.features__link{
+  display: inline-block;
+  padding: 12px 46px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  opacity: 0.8;
+  color: #FFFFFF;
+  background-color: #EA625C;;
+  text-decoration: none;
+  
+  &:hover{
+    opacity: 1;
+  }
+}
